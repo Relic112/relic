@@ -1,7 +1,6 @@
 # ---------------- #
 #   Main Configs   #
-# ---------------- #
-baseurl:
+# ---------------- #baseurl:
 url: https://relic112.github.io/relic/
 date_format: "ordinal"
 title: Relic
@@ -60,6 +59,10 @@ highlight_theme: github
 author: Relic
 organization: 
 organization_url: 
+github_username: 
+location: 
+email: 
+
 
 # ---------------- #
 #    Navigation    #
