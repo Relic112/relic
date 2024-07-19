@@ -5,7 +5,7 @@ baseurl:
 url: https://relic112.github.io/relic/
 date_format: "ordinal"
 title: Relic
-subtitle: "let's begin"
+subtitle: "let's begin ！"
 description: "马壮的个人博客，公众号：闷骚的程序员"
 keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
 timezone: Asia/Shanghai
@@ -181,10 +181,10 @@ beaudar:
     repo: mzlogin/blog-comments
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: mzlogin/blog-comments
-    repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
+    repo: Relic112/relic
+    repo-id: R_kgDOMXgFQQ
     category: Announcements
-    category-id: DIC_kwDOBY0E7c4CRtg9
+    category-id: DIC_kwDOMXgFQc4Cg5ps
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
