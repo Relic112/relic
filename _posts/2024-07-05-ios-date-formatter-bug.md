@@ -85,6 +85,3 @@ if (remoteDate) {
 - [https://developer.apple.com/documentation/foundation/nsdateformatter#2528261][2]
 - [https://developer.apple.com/library/archive/qa/qa1480/_index.html][3]
 
-[1]: https://developer.apple.com/documentation/foundation/nsdateformatter/1409994-datefromstring
-[2]: https://developer.apple.com/documentation/foundation/nsdateformatter#2528261
-[3]: https://developer.apple.com/library/archive/qa/qa1480/_index.html
