@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans" prefix="og: http://ogp.me/ns#" class="han-init">
 <head>
+  
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -89,58 +90,16 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', '{{ site.google.analytics_id }}');
     </script>
     {% endif %}
-    <style>
-      /* 基本的按钮样式 */  
-.menu-toggle {  
-    display: block; /* 或者 inline-block，取决于你的布局需求 */  
-    width: 40px; /* 按钮的宽度 */  
-    height: 30px; /* 按钮的高度 */  
-    background-color: transparent; /* 按钮的背景颜色，这里设置为透明 */  
-    border: none; /* 移除边框 */  
-    padding: 0; /* 移除内边距 */  
-    cursor: pointer; /* 鼠标悬停时显示手指形状，表示可点击 */  
-    outline: none; /* 移除点击时的轮廓线 */  
-    transition: background-color 0.3s ease; /* 平滑的背景颜色过渡效果 */  
-}  
-  
-/* 当按钮被激活（比如，菜单是展开的）时，可以添加额外的样式 */  
-.menu-toggle.active {  
-    background-color: #333; /* 示例：当菜单展开时，按钮背景变为深灰色 */  
-}  
-  
-/* 汉堡菜单图标的样式 */  
-.icon-bar {  
-    display: block;  
-    width: 100%; /* 图标条的宽度占满整个按钮 */  
-    height: 4px; /* 图标条的高度 */  
-    background-color: #000; /* 图标条的颜色 */  
-    margin: 6px 0; /* 图标条之间的间距 */  
-    transition: transform 0.3s ease, opacity 0.3s ease; /* 平滑的变换和透明度过渡效果 */  
-}  
-  
-/* 可以通过JavaScript动态添加或移除的样式，以改变汉堡图标的形状为X形状 */  
-.menu-toggle.x .icon-bar:nth-child(1) {  
-    transform: translateY(6px) rotate(45deg);  
-}  
-  
-.menu-toggle.x .icon-bar:nth-child(2) {  
-    opacity: 0; /* 完全透明，隐藏中间的条 */  
-}  
-  
-.menu-toggle.x .icon-bar:nth-child(3) {  
-    transform: translateY(-6px) rotate(-45deg);  
-}
-    </style>
 </head>
+
 <body class="{{ page.class }}" data-mz="{{ page.class }}">
     <header class="site-header">
         <div class="container">
             <h1><a href="{{ site.url }}/" title="{{ site.title }}"><span class="octicon octicon-mark-github"></span> {{ site.title }}</a></h1>
-            <button class="menu-toggle collapsed mobile-visible" type="button" onclick="toggleMenu();">  
+            <button class="collapsed mobile-visible" type="button" onclick="toggleMenu();">  
               <span class="icon-bar"></span>  
               <span class="icon-bar"></span>  
               <span class="icon-bar"></span>  
