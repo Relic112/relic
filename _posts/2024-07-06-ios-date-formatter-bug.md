@@ -1,9 +1,9 @@
 ---
 layout: post
-title: iOS｜ddd一个与 NSDateFormatter 有关的小 Bug
-categories: [iOS]
+title: 算法｜期末试题题解
+categories: [算法]
 description: iOS AddPP 的一个小 Bug，与 NSDateFormatter 有关。
-keywords: iOS, NSDateFormatter, 24小时制
+keywords: 算法,C++
 mermaid: false
 sequence: false
 flow: false
