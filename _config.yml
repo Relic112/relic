@@ -164,7 +164,7 @@ lazy_load_disqus : false
 # ---------------- #
 simple_jekyll_search:
     # 是否支持全文搜索
-    fulltext: false
+    fulltext: true
     # 最多显示多少条搜索结果
     limit: 10
 
@@ -172,11 +172,11 @@ simple_jekyll_search:
 #      Google      #
 # ---------------- #
 google:
-    analytics_id: # G-20FLEG5Q2W
+    analytics_id:  G-20FLEG5Q2W
     adsense:
-        enabled: false
-        footer: false
-        sidebar: false
-        sidebar-detail: false
-        content_header: false
-        content_footer: false
+        enabled: true
+        footer: true
+        sidebar: true
+        sidebar-detail: true
+        content_header: true
+        content_footer: true
